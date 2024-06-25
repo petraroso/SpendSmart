@@ -9,8 +9,8 @@
 </div>
 
 <form asp-controller="Home" asp-action="CreateEditExpenseForm">
-    <label>Id</label>
-    <input class="form-control" type="number" placeholder="0" asp-for="Id" />
+
+    <input hidden class="form-control" type="number" placeholder="0" asp-for="Id" />
     
     <label class="mt-4">Value €</label>
     <input class="form-control" type="number" placeholder="0" asp-for="Value" step="0.01"/>
